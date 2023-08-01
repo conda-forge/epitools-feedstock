@@ -1,5 +1,5 @@
 {% set name = "epitools" %}
-{% set version = "0.0.10" %}
+{% set version = "0.0.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/epitools-{{ version }}.tar.gz
-  sha256: 77e97b6902ada7cb348acec1ebf36c850e1c25100332f4c95ef3166a61377f4a
+  sha256: b6cd11ce3ffd0eeb62166f3660b163cf1e58002a2ce764fb00cb239cd542ee61
 
 build:
   noarch: python
