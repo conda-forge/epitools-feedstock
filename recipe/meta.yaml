@@ -24,6 +24,7 @@ requirements:
     - magicgui
     - matplotlib-base
     - napari
+    - networkx  # Not declared but used in source code
     - numpy
     - pandas
     - python >=3.9
@@ -42,10 +43,11 @@ test:
     - pyqt
 
 about:
-  home: https://github.com/epitools/epitools
-  summary: EpiTools Plugin
+  home: https://pypi.org/project/epitools
+  summary: Extract the membrane signal from epithelial tissues and analyze it with computer vision
   license: BSD-3-Clause
   license_file: LICENCE.md
+  dev_url: https://github.com/epitools/epitools
 
 extra:
   recipe-maintainers:
