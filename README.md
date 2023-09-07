@@ -3,11 +3,13 @@ About epitools-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/epitools-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/epitools/epitools
+Home: https://pypi.org/project/epitools
 
 Package license: BSD-3-Clause
 
-Summary: EpiTools Plugin
+Summary: Extract the membrane signal from epithelial tissues and analyze it with computer vision
+
+Development: https://github.com/epitools/epitools
 
 Current build status
 ====================
