@@ -12,12 +12,12 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools-scm
   run:
     - partseg
@@ -27,7 +27,7 @@ requirements:
     - networkx  # Not declared but used in source code
     - numpy
     - pandas
-    - python >=3.9
+    - python >={{ python_min }}
     - scikit-image >=0.20
     - scipy
 
@@ -41,6 +41,7 @@ test:
   requires:
     - pip
     - pyqt
+    - python {{ python_min }}
 
 about:
   home: https://pypi.org/project/epitools
